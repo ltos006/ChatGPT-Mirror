@@ -75,7 +75,7 @@
             <div style="display: flex; flex-direction: column; width: 100%">
               <t-textarea
                 v-model="newChat.chatgpt_token"
-                :autosize="{ minRows: 5, maxRows: 5 }"
+                :autosize="{ minRows: 1, maxRows: 5 }"
                 autofocus
                 size="large"
                 placeholder="请输入 Access Token 或 Session Token 或 Refresh Token。一行一串Token，多个Token请换行输入。"
